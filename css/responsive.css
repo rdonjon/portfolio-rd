@@ -66,16 +66,21 @@ figure .img-wrapper {
   overflow: hidden;
 }
 figure img {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  -webkit-transition: -webkit-transform 400ms;
+  transition: transform 400ms;
 }
-
 figure:hover img {
-;
+  -webkit-transform: scale3d(1.2, 1.2, 1);
+  transform: scale3d(1.2, 1.2, 1);
 }
 figure:hover .overlay {
   opacity: 1;
 }
 figure:hover .overlay .buttons a {
- 
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
 }
 figure .overlay {
   position: absolute;
@@ -87,6 +92,8 @@ figure .overlay {
   text-align: center;
   background: rgba(0, 0, 0, 0.7);
   opacity: 0;
+  -webkit-transition: opacity 400ms;
+  transition: opacity 400ms;
 }
 figure .overlay a {
   display: inline-block;
@@ -96,12 +103,17 @@ figure .overlay a {
   border: 1px solid #fff;
   border-radius: 0px;
   margin: 4px;
+  -webkit-transform: scale3d(0, 0, 0);
+  transform: scale3d(0, 0, 0);
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
 }
 figure .overlay a:hover {
   text-decoration: none;
 }
 figure .overlay:hover a {
-
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
 }
 figure .buttons {
   position: absolute;
@@ -259,15 +271,21 @@ figure .img-wrapper {
   overflow: hidden;
 }
 figure img {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  -webkit-transition: -webkit-transform 400ms;
+  transition: transform 400ms;
 }
 figure:hover img {
-
+  -webkit-transform: scale3d(1.2, 1.2, 1);
+  transform: scale3d(1.2, 1.2, 1);
 }
 figure:hover .overlay {
   opacity: 1;
 }
 figure:hover .overlay .buttons a {
-
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
 }
 figure .overlay {
   position: absolute;
@@ -279,6 +297,8 @@ figure .overlay {
   text-align: center;
   background: rgba(0, 0, 0, 0.7);
   opacity: 0;
+  -webkit-transition: opacity 400ms;
+  transition: opacity 400ms;
 }
 figure .overlay a {
   display: inline-block;
@@ -288,12 +308,17 @@ figure .overlay a {
   border: 1px solid #fff;
   border-radius: 0px;
   margin: 4px;
+  -webkit-transform: scale3d(0, 0, 0);
+  transform: scale3d(0, 0, 0);
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
 }
 figure .overlay a:hover {
   text-decoration: none;
 }
 figure .overlay:hover a {
-
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
 }
 figure .buttons {
   position: absolute;

@@ -4,6 +4,12 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+.view-tenth {
+-webkit-user-select: none;
+-webkit-touch-callout: none; 
+}
+
 h1,
 h2,
 h3,
