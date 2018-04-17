@@ -66,21 +66,18 @@ figure .img-wrapper {
   overflow: hidden;
 }
 figure img {
-  -webkit-transform: scale3d(1, 1, 1);
-  transform: scale3d(1, 1, 1);
+
   -webkit-transition: -webkit-transform 400ms;
   transition: transform 400ms;
 }
 figure:hover img {
-  -webkit-transform: scale3d(1.2, 1.2, 1);
-  transform: scale3d(1.2, 1.2, 1);
+;
 }
 figure:hover .overlay {
   opacity: 1;
 }
 figure:hover .overlay .buttons a {
-  -webkit-transform: scale3d(1, 1, 1);
-  transform: scale3d(1, 1, 1);
+ 
 }
 figure .overlay {
   position: absolute;
@@ -112,8 +109,7 @@ figure .overlay a:hover {
   text-decoration: none;
 }
 figure .overlay:hover a {
-  -webkit-transform: scale3d(1, 1, 1);
-  transform: scale3d(1, 1, 1);
+
 }
 figure .buttons {
   position: absolute;
@@ -136,6 +132,12 @@ figure figcaption p {
   font-size: 11px;
   margin-bottom: 0;
   margin-top: 5px;
+}
+.global-page-header h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
 }
 }
 
@@ -271,15 +273,13 @@ figure img {
   transition: transform 400ms;
 }
 figure:hover img {
-  -webkit-transform: scale3d(1.2, 1.2, 1);
-  transform: scale3d(1.2, 1.2, 1);
+
 }
 figure:hover .overlay {
   opacity: 1;
 }
 figure:hover .overlay .buttons a {
-  -webkit-transform: scale3d(1, 1, 1);
-  transform: scale3d(1, 1, 1);
+
 }
 figure .overlay {
   position: absolute;
@@ -311,8 +311,7 @@ figure .overlay a:hover {
   text-decoration: none;
 }
 figure .overlay:hover a {
-  -webkit-transform: scale3d(1, 1, 1);
-  transform: scale3d(1, 1, 1);
+
 }
 figure .buttons {
   position: absolute;
@@ -337,7 +336,12 @@ figure figcaption p {
   margin-top: 5px;
 }
 
-
+.global-page-header h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
 
 
 }
