@@ -168,7 +168,7 @@
                  </p>
                </div>
                <div class="row">
-                <div class="col-sm-4 col-xs-12">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 realisations">
                   <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="600ms">
                     <div class="img-wrapper">
                       <img src="images/portfolio/appli-expat.jpg" class="img-responsive" alt="" >
@@ -190,7 +190,7 @@
               </div>
 
 
-              <div class="col-sm-4 col-xs-12">
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 realisations">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
                   <div class="img-wrapper">
                     <img src="images/portfolio/axa.jpg" class="img-responsive" alt="this is a title" >
@@ -210,7 +210,7 @@
                   </figcaption>
                 </figure>
               </div>
-              <div class="col-sm-4 col-xs-12">
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 realisations">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
                   <div class="img-wrapper">
                     <img src="images/portfolio/logo-kine.jpg" class="img-responsive" alt="" >
@@ -231,7 +231,7 @@
                 </figure>
               </div>
 
-              <div class="col-sm-4 col-xs-12">
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 realisations">
                 <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
                   <div class="img-wrapper">
                     <img src="images/portfolio/carte-etik.jpg" class="img-responsive" alt="this is a title" >
@@ -252,7 +252,7 @@
                 </figure>
               </div>
 
-              <div class="col-sm-4 col-xs-12">
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 realisations">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="900ms">
                   <div class="img-wrapper">
                     <img src="images/portfolio/carte-massage.jpg" class="img-responsive" alt="" >
@@ -272,7 +272,7 @@
                   </figcaption>
                 </figure>
               </div>
-              <div class="col-sm-4 col-xs-12">
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 realisations">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="1200ms">
                   <div class="img-wrapper">
                     <img src="images/portfolio/jevendspourtoi.jpg" class="img-responsive" alt="" >
