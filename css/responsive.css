@@ -37,6 +37,23 @@
   .navbar-nav .dropdown-backdrop {
     visibility: hidden;
   }
+figure figcaption {
+  padding: 20px 25px;
+  margin-top: 0;
+  color: #666;
+}
+figure figcaption h3 {
+  margin: 0;
+  font-size: 14px;
+}
+figure figcaption h3{
+  color: #9BBABA;
+}
+figure figcaption p {
+  font-size: 11px;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
 
 }
 /*		Tablet Layout: 768px.

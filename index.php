@@ -183,7 +183,7 @@
                        Webdesign
                      </h3>
                      <p>
-                      Webdesign de l'application mobile ExpatForYou
+                      Webdesign d'une application mobile
                     </p>
                   </figcaption>
                 </figure>
@@ -205,7 +205,27 @@
                       Webdesign
                     </h3>
                     <p>
-                      Webdesign d'un logiciel sur mesure pour Cohaesio
+                      Webdesign d'un logiciel sur mesure
+                    </p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 realisations">
+                <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
+                  <div class="img-wrapper">
+                    <img src="images/portfolio/carte-etik.jpg" class="img-responsive" alt="this is a title" >
+                    <div class="overlay">
+                      <div class="buttons">
+                        <a rel="gallery" class="fancybox" href="images/portfolio/carte-etik.jpg">Voir</a>
+                      </div>
+                    </div>
+                  </div>
+                  <figcaption>
+                    <h3>
+                      Infographie
+                    </h3>
+                    <p>
+                      Carte de visite
                     </p>
                   </figcaption>
                 </figure>
@@ -225,32 +245,13 @@
                       Infographie
                     </h3>
                     <p>
-                      Logo pour un cabinet de Kinésithérapie
+                      Logo
                     </p>
                   </figcaption>
                 </figure>
               </div>
 
-              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 realisations">
-                <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
-                  <div class="img-wrapper">
-                    <img src="images/portfolio/carte-etik.jpg" class="img-responsive" alt="this is a title" >
-                    <div class="overlay">
-                      <div class="buttons">
-                        <a rel="gallery" class="fancybox" href="images/portfolio/carte-etik.jpg">Voir</a>
-                      </div>
-                    </div>
-                  </div>
-                  <figcaption>
-                    <h3>
-                      Infographie
-                    </h3>
-                    <p>
-                      Carte de visite pour la société Etik Patrimoine
-                    </p>
-                  </figcaption>
-                </figure>
-              </div>
+              
 
               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 realisations">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="900ms">
@@ -267,7 +268,7 @@
                       Infographie
                     </h3>
                     <p>
-                      Carte de visite pour M. massages et ateliers
+                      Carte de visite
                     </p>
                   </figcaption>
                 </figure>
@@ -287,7 +288,7 @@
                       Webdesign
                     </h3>
                     <p>
-                      Webdesign de la plateforme web jevendspourtoi.fr
+                      Webdesign d'une plateforme web
                     </p>
                   </figcaption>
                 </figure>
