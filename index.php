@@ -14,7 +14,7 @@
           ================================================== -->
           <meta name="format-detection" content="telephone=no">
           <meta name="viewport" content="width=device-width, initial-scale=1">
-          
+
         <!-- Template CSS Files
           ================================================== -->
           <!-- Twitter Bootstrs CSS -->
@@ -33,7 +33,7 @@
           <link rel="stylesheet" href="css/main.css">
           <!-- responsive css -->
           <link rel="stylesheet" href="css/responsive.css">
-          
+
         <!-- Template Javascript Files
           ================================================== -->
           <!-- modernizr js -->
@@ -69,7 +69,7 @@
                 <span class="icon-bar"></span>
               </button>
               <!-- /responsive nav button -->
-              
+
               <!-- logo -->
               <div class="navbar-brand">
                 <a href="index.php" >
@@ -95,7 +95,7 @@
             <!-- /main nav -->
           </div>
         </header>
-        
+
         <!--
         ==================================================
         Slider Section Start
@@ -122,7 +122,7 @@
                     Vous avez un projet de communication web ou papier ? vous êtes au bon endroit ! <br>
                   </h2>
                   <a class="btn-lines dark light wow fadeInUp animated smooth-scroll btn btn-default btn-green" data-wow-delay=".9s" href="#works" data-section="#works">Mes réalisations</a>
-                  
+
                 </div>
               </div>
             </div>
@@ -145,7 +145,7 @@
                         Je pense que la passion entraîne une réelle motivation, balayant toutes banalités pour offrir perfection, innovation et biensur satisfaction.
                       </p>
                     </div>
-                    
+
                   </div>
                   <div class="col-md-6 col-sm-6">
                     <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
@@ -222,7 +222,7 @@
                   </div>
                   <figcaption>
                     <h3>
-                      Infographie 
+                      Infographie
                     </h3>
                     <p>
                       Logo pour un cabinet de Kinésithérapie
@@ -297,7 +297,7 @@
               <a href="portfolio.html" class="btn btn-default btn-rea wow fadeInDown" data-wow-delay=".9s">Voir toutes mes réalisations</a></div>
             </div>
           </section> <!-- #works -->
-            
+
             <!--
             ==================================================
             Call To Action Section Start
@@ -342,6 +342,6 @@
               </div>
             </div>
           </footer> <!-- /#footer -->
-          
+
         </body>
         </html>

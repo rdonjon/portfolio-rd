@@ -1,11 +1,17 @@
 <?php
+
+include_once(__DIR__.'/phpmailer/phpmailer/class.phpmailer.php');
+
 /*
 	********************************************************************************************
 	CONFIGURATION
 	********************************************************************************************
 */
 // destinataire est votre adresse mail. Pour envoyer à plusieurs à la fois, séparez-les par une virgule
-$destinataire = 'romane.donjon.iw@gmail.com';
+// $destinataire = 'romane.donjon.iw@gmail.com';
+$destinataire = 'b.chemier@eobs.fr';
+$replyTo = 'b.chemier@eobs.fr';
+
 
 // copie ? (envoie une copie au visiteur)
 $copie = 'oui';
@@ -62,81 +68,178 @@ $message = (isset($_POST['message'])) ? Rec($_POST['message']) : '';
 $email = (IsEmail($email)) ? $email : ''; // soit l'email est vide si erroné, soit il vaut l'email entré
 $err_formulaire = false; // sert pour remplir le formulaire en cas d'erreur si besoin
 
-if (isset($_POST['envoi']))
+$contenu = sprintf('<p>Bonjour,</p>
+
+                    <p>Une demande vous a été émise via le formulaire de contact sur le site <a href="www.romanedonjon.fr">www.romanedonjon.fr</a></p>
+
+                    <p><u>Données de l\'internaute :</u></p>
+
+                    <p><em>%s</em></p>
+
+                    <p><strong><a href="mailto:%s">%s</a></strong></p>
+
+                    <p><u>Son message :</u></p>
+
+                    <p>%s</p>
+
+                    <p>%s</p>
+
+                    <p>Cordialement,</p>
+
+                    ',
+                $nom,
+                $email,
+                $email,
+                $objet,
+                $message
+            );
+
+$params = array();
+$params['subject'] = '[Romane Donjon] - Un nouveau message vous est parvenu';
+$params['to'] = $destinataire;
+$params['cc'] = '';
+$params['cci'] = 'b.chemier@eobs.fr';
+$params['content'] = $contenu;
+$params['isAccuseReception'] = 0;
+$params['replyTo'] = $replyTo;
+$params['from'] = 'contact@eobs.fr';
+$params['fromName'] = '';
+$params['attachments'] = '';
+
+
+
+$result = sendWithPHPMailer($params);
+
+if ($result) {
+    header(sprintf("HTTP/1.1 %s %s", 302, 'Found'));
+    header(sprintf('Location: %s', 'mail-send.html'));
+    header("Connection: close");
+} else {
+   echo
+   '<div>
+        <p>
+            Une erreur est survenue lors de l\'envoi. Veuillez réessayer plus tard.
+        </p>
+        <p>
+            <a href="www.romanedonjon.fr" > Retournez à l\'accueil</a>
+        </p>
+    </div>';
+}
+
+
+function sendWithPHPMailer(array $params)
 {
-	if (($nom != '') && ($email != '') && ($objet != '') && ($message != ''))
-	{
-		// les 4 variables sont remplies, on génère puis envoie le mail
-		$headers  = 'MIME-Version: 1.0' . "\r\n";
-		$headers .= 'From:'.$nom.' <'.$email.'>' . "\r\n" .
-				'Reply-To:'.$email. "\r\n" .
-				'Content-Type: text/plain; charset="utf-8"; DelSp="Yes"; format=flowed '."\r\n" .
-				'Content-Disposition: inline'. "\r\n" .
-				'Content-Transfer-Encoding: 7bit'." \r\n" .
-				'X-Mailer:PHP/'.phpversion();
+    // Config de test en local avec maildev:
+    // $mailHost = 'localhost';
+    // $mailPort = 1025;
+    // $mailPwd = '';
+    // $mailUser = '';
 
-		// envoyer une copie au visiteur ?
-		if ($copie == 'oui')
-		{
-			$cible = $destinataire.';'.$email;
-		}
-		else
-		{
-			$cible = $destinataire;
-		};
+    // Config de prod:
+    $mailHost = 'smtp.eobs.fr';
+    $mailPort = 25;
+    $mailUser = 'noreply@eobs.fr';
+    $mailPwd = 'no11reply09';
 
-		// Remplacement de certains caractères spéciaux
-		$message = str_replace("&#039;","'",$message);
-		$message = str_replace("&#8217;","'",$message);
-		$message = str_replace("&quot;",'"',$message);
-		$message = str_replace('<br>','',$message);
-		$message = str_replace('<br />','',$message);
-		$message = str_replace("&lt;","<",$message);
-		$message = str_replace("&gt;",">",$message);
-		$message = str_replace("&amp;","&",$message);
+    $subject = $params['subject'];
+    $to = $params['to'];
+    $cc = $params['cc'];
+    $bcc = $params['cci'];
+    $content = $params['content'];
+    $isAccuseReception = $params['isAccuseReception'];
+    $reply_to = $params['replyTo'];
+    $from = $params['from'];
+    $from_name = $params['fromName'];
+    $attachments = $params['attachments'];
 
-		// Envoi du mail
-		$num_emails = 0;
-		$tmp = explode(';', $cible);
-		foreach($tmp as $email_destinataire)
-		{
-			if (mail($email_destinataire, $objet, $message, $headers))
-				$num_emails++;
-		}
+    $Mail = new \PHPMailer();
+    $Mail->Priority = 3;
+    $Mail->Encoding = "8bit";
+    $Mail->CharSet = "iso-8859-1";
+    $Mail->From = $from;
 
-		if ((($copie == 'oui') && ($num_emails == 2)) || (($copie == 'non') && ($num_emails == 1)))
-		{
-			echo '<p>'.$message_envoye.'</p>';
-		}
-		else
-		{
-			echo '<p>'.$message_non_envoye.'</p>';
-		};
-	}
-	else
-	{
-		// une des 3 variables (ou plus) est vide ...
-		echo '<p>'.$message_formulaire_invalide.'</p>';
-		$err_formulaire = true;
-	};
-}; // fin du if (!isset($_POST['envoi']))
+    if(!empty($from_name)){
+        $Mail->FromName = $from_name;
+    } else{
+        $Mail->FromName = $Mail->From;
+    }
+    $Mail->Sender = $Mail->From;
 
-if (($err_formulaire) || (!isset($_POST['envoi'])))
-{
-	// afficher le formulaire
-	echo '
-	<form id="contact" method="post" action="'.$form_action.'">
-	<fieldset><legend>Vos coordonnées</legend>
-		<p><label for="nom">Nom :</label><input type="text" id="nom" name="nom" value="'.stripslashes($nom).'" tabindex="1" /></p>
-		<p><label for="email">Email :</label><input type="text" id="email" name="email" value="'.stripslashes($email).'" tabindex="2" /></p>
-	</fieldset>
+    if($isAccuseReception) {
+        $Mail->ConfirmReadingTo = $Mail->From;
+    }
 
-	<fieldset><legend>Votre message :</legend>
-		<p><label for="objet">Objet :</label><input type="text" id="objet" name="objet" value="'.stripslashes($objet).'" tabindex="3" /></p>
-		<p><label for="message">Message :</label><textarea id="message" name="message" tabindex="4" cols="30" rows="8">'.stripslashes($message).'</textarea></p>
-	</fieldset>
+    $Mail->Subject= utf8_decode(stripslashes($subject));
+    $Mail->IsHTML(true);
 
-	<div style="text-align:center;"><input type="submit" name="envoi" value="Envoyer le formulaire !" /></div>
-	</form>';
-};
+    $Mail->Body = utf8_decode(stripslashes($content));
+    $Mail->AltBody = "";
+    $Mail->WordWrap = 0;
+
+    $smtpAuth = true;
+
+    $Mail->Host = $mailHost;
+    $Mail->Port = $mailPort;
+    $Mail->Helo = "you";
+    $Mail->SMTPAuth = $smtpAuth;
+
+    $Mail->SMTPOptions = array(
+        'ssl' => array(
+            'verify_peer' => false,
+            'verify_peer_name' => false,
+            'allow_self_signed' => true,
+        )
+    );
+
+    $Mail->Username = $mailUser;
+    $Mail->Password = $mailPwd;
+    $Mail->PluginDir = $INCLUDE_DIR;
+
+
+    if(strlen($Mail->Host) > 0) {
+        $Mail->Mailer = "smtp";
+    } else {
+        $Mail->Mailer = "mail";
+        $Sender = $Mail->From;
+    }
+
+    $tab_dest = explode(',',$to);
+    foreach($tab_dest as $dest) {
+        $Mail->AddAddress($dest, '');
+    }
+
+    $tab_cc = $cc;
+    if (!empty($tab_cc)) {
+        $tab_cc = explode(',',$cc);
+        foreach($tab_cc as $cc) {
+            $Mail->AddCC($cc,'');
+        }
+    }
+
+    $tab_bcc = $bcc;
+    if (!empty($tab_bcc)) {
+        $tab_bcc = explode(',',$bcc);
+        foreach($tab_bcc as $bcc) {
+            $Mail->AddBCC($bcc,'');
+        }
+    }
+
+    if(!empty($reply_to)) {
+        $Mail->AddReplyTo($reply_to, $reply_to);
+    }
+
+    if(!empty($attachments) && is_array($attachments)) {
+        foreach($attachments as $attachment) {
+            $Mail->AddAttachment($attachment);
+        }
+    }
+
+    if(!$Mail->Send()) {
+        $result = sprintf("Mailer Error: %s",$Mail->ErrorInfo);
+    } else {
+        $result = true;
+    }
+
+    return $result;
+}
 ?>
