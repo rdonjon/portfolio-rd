@@ -37,6 +37,7 @@
   .navbar-nav .dropdown-backdrop {
     visibility: hidden;
   }
+
 }
 /*		Tablet Layout: 768px.
 		Gutters: 24px.
@@ -53,6 +54,32 @@ px      68    160    252    344    436    528    620    712    */
 cols    1     2      3
 px      68    160    252    */
 
+
+@media only screen and (max-width: 1200px ){
+figure figcaption {
+  padding: 20px 25px;
+  margin-top: 0;
+  color: #666;
+}
+figure figcaption h3 {
+  margin: 0;
+  font-size: 14px;
+}
+figure figcaption h3{
+  color: #9BBABA;
+}
+figure figcaption p {
+  font-size: 11px;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.global-page-header h1 {
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+}
+}
 
 
 @media only screen and (max-width: 1025px ){
@@ -139,7 +166,6 @@ figure figcaption p {
 }
 .global-page-header h1 {
   font-size: 30px;
-  font-weight: bold;
   color: #fff;
   text-transform: uppercase;
 }
@@ -233,7 +259,7 @@ figure figcaption p {
 
 #hero-area h1 {
   font-size: 30px;
-  line-height: 40px;
+  line-height: 45px;
   color: #333;
   font-weight: 700;
   margin-bottom: 15px;
@@ -345,7 +371,6 @@ figure figcaption p {
 
 .global-page-header h1 {
   font-size: 30px;
-  font-weight: bold;
   color: #fff;
   text-transform: uppercase;
 }
