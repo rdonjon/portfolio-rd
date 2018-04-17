@@ -82,7 +82,7 @@ figure figcaption p {
 }
 
 
-@media only screen and (max-width: 1025px ){
+@media only screen and (max-width: 1030px ){
   figure {
   background: #fff;
   margin-bottom: 45px;
