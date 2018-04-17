@@ -136,6 +136,36 @@ px      68    160    252    */
 .logo{
   margin:0;
 }
+
+#hero-area h1 {
+  font-size: 30px;
+  line-height: 40px;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#hero-area {
+  background: url('../images/slider.jpg') no-repeat 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 230px 0;
+  color: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+#hero-area h2 {
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 38px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #666;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 25px;
+}
 }
 /*		Wide Mobile Layout: 480px.
 		Gutters: 24px.
