@@ -183,7 +183,7 @@
                        Webdesign
                      </h3>
                      <p>
-                      Webdesign d'une application mobile
+                      Webdesign de l'application mobile ExpatForYou
                     </p>
                   </figcaption>
                 </figure>
@@ -205,7 +205,7 @@
                       Webdesign
                     </h3>
                     <p>
-                      Webdesign d'un logiciel sur mesure
+                      Webdesign d'un logiciel sur mesure pour Cohaesio
                     </p>
                   </figcaption>
                 </figure>
@@ -225,7 +225,7 @@
                       Infographie
                     </h3>
                     <p>
-                      Carte de visite
+                      Carte de visite pour la société Etik Patrimoine
                     </p>
                   </figcaption>
                 </figure>
@@ -245,7 +245,7 @@
                       Infographie
                     </h3>
                     <p>
-                      Logo
+                      Logo pour un cabinet de Kinésithérapie
                     </p>
                   </figcaption>
                 </figure>
@@ -268,7 +268,7 @@
                       Infographie
                     </h3>
                     <p>
-                      Carte de visite
+                      Carte de visite pour M. massages et ateliers
                     </p>
                   </figcaption>
                 </figure>
@@ -288,7 +288,7 @@
                       Webdesign
                     </h3>
                     <p>
-                      Webdesign d'une plateforme web
+                      Webdesign de la plateforme web jevendspourtoi.fr
                     </p>
                   </figcaption>
                 </figure>
