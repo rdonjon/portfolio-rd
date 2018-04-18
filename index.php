@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" xmlns:og="http://ogp.me/ns#" lang="fr">
 <head>
         <!-- Basic Page Needs
           ================================================== -->
@@ -251,7 +251,7 @@
                 </figure>
               </div>
 
-              
+
 
               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 realisations">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="900ms">
