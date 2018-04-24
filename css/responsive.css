@@ -425,7 +425,13 @@ figure figcaption p {
     box-shadow: 0 2px 0.09px rgba(0, 0, 0, 0.15);
   }
 
+  .navbar-fixed-top  .navbar-collapse {
+  margin-top: 2.0rem;
 }
+
+}
+
+
 /*		Wide Mobile Layout: 480px.
 		Gutters: 24px.
 		Outer margins: 22px.

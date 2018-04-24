@@ -95,7 +95,7 @@
               <!-- /logo -->
             </div>
             <!-- main menu -->
-            <nav class="collapse navbar-collapse navbar-right" role="navigation" style="margin-top: 16px">
+            <nav class="collapse navbar-collapse navbar-right" role="navigation">
               <div class="main-menu">
                 <ul class="nav navbar-nav navbar-right">
                   <li>
