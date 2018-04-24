@@ -3,6 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Glegoo);
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
 }
 
 .view-tenth {
@@ -20,8 +21,6 @@ h6 {
 }
 p {
   font-family: 'Roboto', sans-serif;
-  line-height: 22px;
-  font-size: 16px;
   font-weight: 300;
 }
 ul {
@@ -31,24 +30,23 @@ ul li {
   list-style: none;
 }
 h2 {
-  font-size: 26px;
+  font-size: 2.6rem;
 }
 a:hover {
   text-decoration: none;
 }
 .section-heading {
   text-align: center;
-  margin-bottom: 65px;
+  margin-bottom: 6.5rem;
 }
 .section-heading p {
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 300;
   color: #727272;
-  line-height: 20px;
+  line-height: 2.0rem;
 }
 .title {
-  font-size: 30px;
-  line-height: 1.1;
+  font-size: 3.0rem;
   font-weight: 300;
   color: #333;
   text-transform: uppercase;
@@ -56,8 +54,8 @@ a:hover {
 }
 
 p.title{
-  font-size: 30px;
-  line-height: 1.1;
+  font-size: 3.0rem;
+  line-height: 3.4rem;
   font-weight: 300;
   color: #333;
   text-transform: uppercase;
@@ -65,14 +63,14 @@ p.title{
 }
 
 .subtitle {
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 600;
   margin-bottom: 18px;
   text-transform: uppercase;
 }
 .subtitle-des {
   color: #727272;
-  font-size: 14px;
+  font-size: 1.4rem;
   margin-bottom: 35px;
   font-weight: 300;
 }
@@ -136,7 +134,7 @@ p.title{
   position: relative;
 }
 #top-bar .main-menu li a {
-  font-size: 14px;
+  font-size: 1.5rem;
   font-weight: 500;
   border-bottom: 2px solid transparent;
   -webkit-transition: .3s all;
@@ -185,18 +183,18 @@ p.title{
   z-index: 999;
 }
 #hero-area h1 {
-  font-size: 40px;
-  line-height: 50px;
+  font-size: 4.0rem;
+  line-height: 5.0rem;
   color: #333;
   font-weight: 700;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
 #hero-area h2 {
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 300;
   margin-bottom: 38px;
-  line-height: 27px;
+  line-height: 2.7rem;
   text-transform: uppercase;
   color: #666;
   font-family: 'Roboto', sans-serif;
@@ -208,9 +206,8 @@ p.title{
   color: #fff;
   padding: 20px 35px;
   margin-top: 30px;
-  font-size: 16px;
-  font-size: 13px;
-  line-height: 1em;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
   text-transform: uppercase;
   letter-spacing: normal;
   border-radius: 0;
@@ -224,9 +221,8 @@ p.title{
   color: #fff;
   padding: 20px 35px;
   margin-top: 30px;
-  font-size: 16px;
-  font-size: 13px;
-  line-height: 1em;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
   text-transform: uppercase;
   letter-spacing: normal;
   border-radius: 0;
@@ -251,7 +247,7 @@ p.title{
   color: #fff;
 }
 #call-to-action .block p {
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 300;
   font-family: 'Roboto', sans-serif;
   margin-top: 20px;
@@ -262,7 +258,7 @@ p.title{
   color: #9BBABA;
   padding: 16px 35px;
   margin-top: 20px;
-  font-size: 12px;
+  font-size: 1.2rem;
   letter-spacing: 2px;
   text-transform: uppercase;
   border-radius: 0;
@@ -277,8 +273,7 @@ p.title{
   padding: 20px 30px 0 30px;
 }
 #about .block p.title {
-  font-size: 25px;
-  line-height: 1.1;
+  font-size: 2.5rem;
   font-weight: 300;
   color: #333;
   text-transform: uppercase;
@@ -286,8 +281,7 @@ p.title{
 }
 #about .block p {
   color: #727272;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 1.6rem;
   margin-bottom: 35px;
 }
 
@@ -337,7 +331,7 @@ p.title{
   left: 22%;
 }
 .works .block .img-overly .overly a i {
-  font-size: 30px;
+  font-size: 3.0rem;
   color: #fff;
 }
 figure {
@@ -383,7 +377,6 @@ figure .overlay a {
   display: inline-block;
   color: #fff;
   padding: 10px 23px;
-  line-height: 1;
   border: 1px solid #fff;
   border-radius: 0px;
   margin: 4px;
@@ -411,13 +404,13 @@ figure figcaption {
 }
 figure figcaption h3 {
   margin: 0;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 figure figcaption h3{
   color: #9BBABA;
 }
 figure figcaption p {
-  font-size: 12px;
+  font-size: 1.2rem;
   margin-bottom: 0;
   margin-top: 5px;
 }
@@ -432,7 +425,7 @@ figure figcaption p {
 }
 #feature h3 {
   color: #000;
-  font-size: 18px;
+  font-size: 1.8rem;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 20px;
@@ -440,19 +433,18 @@ figure figcaption p {
   font-weight: 400;
 }
 #feature p {
-  line-height: 25px;
-  font-size: 14px;
+  line-height: 2.5rem;
+  font-size: 1.4rem;
   color: #777777;
 }
 #feature .icon {
   text-decoration: none;
   color: #fff;
   background-color: #9BBABA;
-  height: 100px;
+  min-height: 100px;
   text-align: center;
   width: 100px;
-  font-size: 50px;
-  line-height: 100px;
+  font-size: 5.0rem;
   overflow: hidden;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -477,10 +469,9 @@ figure figcaption p {
 }
 #contact-section input {
   display: block;
-  height: 40px;
+  min-height: 40px;
   padding: 6px 12px;
-  font-size: 13px;
-  line-height: 1.428571429;
+  font-size: 1.3rem;
   background-color: #fff;
   background-image: none;
   border: 1px solid #ccc;
@@ -500,8 +491,7 @@ figure figcaption p {
   border-radius: 0;
   width: 100%;
   padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.42857143;
+  font-size: 1.4rem;
   color: #555555;
   background-color: #ffffff;
   background-image: none;
@@ -522,21 +512,21 @@ figure figcaption p {
 #contact-section .address i,
 #contact-section .email i,
 #contact-section .phone i {
-  font-size: 45px;
+  font-size: 4.5rem;
   color: #9BBABA;
 }
 #contact-section .address h5,
 #contact-section .email h5,
 #contact-section .phone h5 {
-  font-size: 16px;
-  line-height: 1.4;
+  font-size: 1.6rem;
+  line-height: 2rem;
 }
 #contact-section .address-details {
   padding-top: 70px;
 }
 #map-canvas {
   width: 100%;
-  height: 350px;
+  min-height: 350px;
   background-color: #CCC;
 }
 #footer {
@@ -546,7 +536,7 @@ figure figcaption p {
   color: #555;
 }
 #footer .copyright {
-  font-size: 13px;
+  font-size: 1.3rem;
   margin-bottom: 0;
   margin-top: 10px;
 }
@@ -562,7 +552,7 @@ figure figcaption p {
   margin-right: 15px;
 }
 #footer .social li a {
-  font-size: 22px;
+  font-size: 2.2rem;
   color: #9BBABA;
 }
 .cd-headline.slide .cd-words-wrapper {
@@ -577,7 +567,7 @@ ul.social-icons {
 ul.social-icons li {
   float: none;
   display: inline-block;
-  height: 36px;
+  min-height: 36px;
 }
 #copyright a:hover,
 #copyright nav .menu li a:hover {
@@ -596,13 +586,13 @@ ul.social-icons li {
   color: #fff;
 }
 .global-page-header h1 {
-  font-size: 42px;
+  font-size: 4.2rem;
   color: #fff;
   text-transform: uppercase;
 }
 .global-page-header .breadcrumb {
   background: none;
-  font-size: 16px;
+  font-size: 1.6rem;
   padding: 8px  0;
 }
 .global-page-header .breadcrumb .active {
@@ -623,14 +613,14 @@ ul.social-icons li {
   padding: 20px 0 20px 50px;
 }
 #product-showcase-banner .block h2 {
-  font-size: 40px;
+  font-size: 4.0rem;
   color: #9BBABA;
   margin-bottom: 20px;
   margin-top: 0;
 }
 #product-showcase-banner .block p {
   color: #666;
-  line-height: 25px;
+  line-height: 2.5rem;
 }
 #product-showcase-banner .block .buttons {
   margin-top: 25px;
@@ -643,7 +633,7 @@ ul.social-icons li {
   -o-transition: .2s all;
   transition: .2s all;
   letter-spacing: 2px;
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 #product-showcase-banner .block .buttons .btn-demo {
   background: #5abd4f;
@@ -668,7 +658,7 @@ ul.social-icons li {
   padding-top: 80px;
 }
 #product-description .block {
-  height: 400px;
+  min-height: 400px;
   overflow: hidden;
   margin-top: 35px;
   border-bottom: 1px solid #dedede;
@@ -706,12 +696,12 @@ ul.social-icons li {
   padding-top: 70px;
 }
 #product-description .block .content h3 {
-  font-size: 32px;
+  font-size: 3.2rem;
   color: #5c5c5c;
 }
 #product-description .block .content p {
   color: #787f8c;
-  line-height: 25px;
+  line-height: 2.5rem;
 }
 #related-items {
   padding: 60px 0 110px;
@@ -769,7 +759,7 @@ ul.social-icons li {
   left: 45%;
 }
 #related-items .block .img-overly .overly a i {
-  font-size: 30px;
+  font-size: 3.0rem;
   color: #fff;
 }
 .service-page .service-parts .block {
@@ -777,14 +767,14 @@ ul.social-icons li {
   text-align: center;
 }
 .service-page .service-parts .block i {
-  font-size: 35px;
+  font-size: 3.5rem;
   color: #9BBABA;
 }
 .service-page .service-parts .block p {
   padding: 0 8px;
-  font-size: 14px;
+  font-size: 1.4rem;
   color: #777;
-  line-height: 1.7;
+  line-height: 1.7rem;
 }
 .works.service-page figure .buttons {
   position: absolute;
@@ -810,7 +800,7 @@ ul.social-icons li {
 }
 .fancybox-close {
   background: url("../images/icons/close.png") no-repeat scroll center center #3F3E3E;
-  height: 50px;
+  min-height: 50px;
   right: 0;
   top: 0;
   width: 50px;
@@ -823,24 +813,24 @@ ul.social-icons li {
 }
 .fancybox-prev span {
   background: url("../images/icons/left.png") no-repeat scroll center center #9BBABA;
-  height: 50px;
+  min-height: 50px;
   width: 50px;
   left: 0;
 }
 .fancybox-title h3 {
-  font-size: 15px;
+  font-size: 1.5rem;
   margin: 0;
 }
 .fancybox-title {
   padding: 15px 8px;
 }
 .wrapper_404 h1 {
-  font-size: 200px;
+  font-size: 20.0rem;
   color: #9BBABA;
-  line-height: 1;
+  line-height: 22.0rem;
 }
 .wrapper_404 h2 {
-  font-size: 50px;
+  font-size: 5.0rem;
   margin-top: 0;
 }
 .wrapper_404 .btn-home {
@@ -849,9 +839,8 @@ ul.social-icons li {
   color: #fff;
   padding: 20px 35px;
   margin-top: 10px;
-  font-size: 16px;
-  font-size: 13px;
-  line-height: 1em;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
   text-transform: uppercase;
   letter-spacing: normal;
   border-radius: 0;
@@ -881,22 +870,22 @@ ul.social-icons li {
   width: 100%;
 }
 .team-member .team_designation {
-  font-size: 13px;
+  font-size: 1.3rem;
 }
 .team-member h3 {
   color: #9BBABA;
   margin-bottom: 0;
-  font-size: 20px;
+  font-size: 2.0rem;
 }
 .team-member p {
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 .team-member .social-icons a {
   background: #9BBABA;
   color: #fff;
   padding: 4px 8px;
   display: inline-block;
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 .team-member .social-icons .facebook {
   padding: 4px 12px;
@@ -926,7 +915,7 @@ article {
 .blog-content h2 a {
   color: #444;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 3.0rem;
 }
 .blog-content .blog-meta {
   color: #9a9a9a;
@@ -986,7 +975,7 @@ article {
   border: 3px solid #fff;
 }
 .sidebar .author .author-bio p {
-  font-size: 14px;
+  font-size: 1.4rem;
   color: #888;
 }
 .sidebar .categories ul li {
@@ -1012,7 +1001,7 @@ article {
 }
 .sidebar .recent-post ul li a {
   color: #555;
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 .sidebar .recent-post ul li a:hover {
   color: #9BBABA;
@@ -1020,7 +1009,7 @@ article {
 .sidebar .recent-post time {
   font-weight: 300;
   color: #999;
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 .gallery {
   padding: 100px;
@@ -1057,7 +1046,7 @@ article {
 }
 .single-post .media .media-body a {
   color: #9BBABA;
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 .single-post .media .media {
   border: none;
@@ -1085,7 +1074,7 @@ article {
   margin: 3px 1px;
 }
 .social-share a {
-  font-size: 20px;
+  font-size: 2.0rem;
   color: #fff;
   background: #9BBABA;
   padding: 4px 10px;
@@ -1114,7 +1103,7 @@ article {
 }
 #top-bar .dropdown-menu > ul > li > a {
   display: block;
-  font-size: 13px;
+  font-size: 1.3rem;
   font-weight: 400;
   line-height: normal;
   text-decoration: none;
@@ -1124,7 +1113,7 @@ article {
 }
 
 .temoin{
-  font-size: 12px;
+  font-size: 1.2rem;
   text-align: right !important;
 
 }
@@ -1137,8 +1126,8 @@ article {
 
 .temoignages li{
     font-family: 'Roboto', sans-serif;
-  line-height: 22px;
-  font-size: 14px;
+  line-height: 2.2rem;
+  font-size: 1.4rem;
   font-weight: 300;
   text-align: justify;
 }
@@ -1146,14 +1135,14 @@ article {
 .temoignages p{
   text-align: justify;
     font-family: 'Roboto', sans-serif;
-  line-height: 22px;
-  font-size: 14px;
+  line-height: 2.2rem;
+  font-size: 1.4rem;
   font-weight: 300;
 }
 
 .temoignages p.title{
-  font-size: 30px;
-  line-height: 1.1;
+  font-size: 3.0rem;
+  line-height: 3.4rem;
   font-weight: 300;
   color: #333;
   text-transform: uppercase;

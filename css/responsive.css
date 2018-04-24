@@ -1,7 +1,7 @@
 /* Responsive styles
 ================================================== */
 /* Large Devices, Wide Screens */
-@media (min-width: 1200px) {
+@media (min-width: 120.000rem) {
   /* Dropdown animation */
   .navbar-nav .dropdown-menu,
   .navbar-nav .dropdown.megamenu div.dropdown-menu {
@@ -44,13 +44,13 @@ figure figcaption {
 }
 figure figcaption h3 {
   margin: 0;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 figure figcaption h3{
   color: #9BBABA;
 }
 figure figcaption p {
-  font-size: 13px;
+  font-size: 1.3rem;
   margin-bottom: 0;
   margin-top: 5px;
 }
@@ -72,7 +72,7 @@ cols    1     2      3
 px      68    160    252    */
 
 
-@media only screen and (max-width: 1200px ){
+@media only screen and (max-width: 120.000rem ){
 figure figcaption {
   padding: 20px 25px;
   margin-top: 0;
@@ -80,26 +80,26 @@ figure figcaption {
 }
 figure figcaption h3 {
   margin: 0;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 figure figcaption h3{
   color: #9BBABA;
 }
 figure figcaption p {
-  font-size: 12px;
+  font-size: 1.2rem;
   margin-bottom: 0;
   margin-top: 5px;
 }
 
 .global-page-header h1 {
-  font-size: 30px;
+  font-size: 3.0rem;
   color: #fff;
   text-transform: uppercase;
 }
 }
 
 
-@media only screen and (max-width: 1030px ){
+@media only screen and (max-width: 103.000rem ){
   figure {
   background: #fff;
   margin-bottom: 45px;
@@ -143,7 +143,6 @@ figure .overlay a {
   display: inline-block;
   color: #fff;
   padding: 10px 23px;
-  line-height: 1;
   border: 1px solid #fff;
   border-radius: 0px;
   margin: 4px;
@@ -171,27 +170,27 @@ figure figcaption {
 }
 figure figcaption h3 {
   margin: 0;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 figure figcaption h3{
   color: #9BBABA;
 }
 figure figcaption p {
-  font-size: 14px;
+  font-size: 1.4rem;
   margin-bottom: 0;
   margin-top: 5px;
 }
 .global-page-header h1 {
-  font-size: 30px;
+  font-size: 3.0rem;
   color: #fff;
   text-transform: uppercase;
 }
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 76.800rem) {
   .title {
-    font-size: 40px;
+    font-size: 4.0rem;
   }
   .navbar-header .navbar-brand a {
     padding: 6px 8px;
@@ -222,7 +221,7 @@ figure figcaption p {
   }
   .dropdown-menu > ul > li > a {
     display: block;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
@@ -264,7 +263,7 @@ figure figcaption p {
   }
   #top-bar .dropdown-menu > ul > li > a {
     display: block;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
@@ -277,8 +276,8 @@ figure figcaption p {
 }
 
 #hero-area h1 {
-  font-size: 30px;
-  line-height: 45px;
+  font-size: 3.0rem;
+  line-height: normal;
   color: #333;
   font-weight: 700;
   margin-bottom: 15px;
@@ -296,10 +295,10 @@ figure figcaption p {
 }
 
 #hero-area h2 {
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 300;
   margin-bottom: 38px;
-  line-height: 27px;
+  line-height: normal;
   text-transform: uppercase;
   color: #666;
   font-family: 'Roboto', sans-serif;
@@ -349,7 +348,6 @@ figure .overlay a {
   display: inline-block;
   color: #fff;
   padding: 10px 23px;
-  line-height: 1;
   border: 1px solid #fff;
   border-radius: 0px;
   margin: 4px;
@@ -377,26 +375,26 @@ figure figcaption {
 }
 figure figcaption h3 {
   margin: 0;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 figure figcaption h3{
   color: #9BBABA;
 }
 figure figcaption p {
-  font-size: 12px;
+  font-size: 1.2rem;
   margin-bottom: 0;
   margin-top: 5px;
 }
 
 .global-page-header h1 {
-  font-size: 30px;
+  font-size: 3.0rem;
   color: #fff;
   text-transform: uppercase;
 }
 
 
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 48.000rem) {
  .navbar-collapse {
     background: #333333;
   }
@@ -408,7 +406,7 @@ figure figcaption p {
   }
 .dropdown-menu > ul > li > a {
     display: block;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
