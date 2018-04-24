@@ -445,7 +445,7 @@ figure figcaption p {
   background-color: #9BBABA;
   min-height: 100px;
   text-align: center;
-  width: 100px;
+  max-width: 100px;
   font-size: 5.0rem;
   overflow: hidden;
   -webkit-border-radius: 50%;
@@ -491,7 +491,7 @@ figure figcaption p {
 #contact-section textarea {
   display: block;
   border-radius: 0;
-  width: 100%;
+  max-width: 100%;
   padding: 6px 12px;
   font-size: 1.4rem;
   color: #555555;
@@ -527,7 +527,7 @@ figure figcaption p {
   padding-top: 70px;
 }
 #map-canvas {
-  width: 100%;
+  max-width: 100%;
   min-height: 350px;
   background-color: #CCC;
 }
@@ -694,7 +694,7 @@ ul.social-icons li {
   transition: transform 0.35s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 #product-description .block .content {
-  width: 60%;
+  max-width: 60%;
   padding-top: 70px;
 }
 #product-description .block .content h3 {
@@ -788,7 +788,7 @@ ul.social-icons li {
 }
 #clients .owl-carousel .owl-item img {
   display: block;
-  width: 100%;
+  max-width: 100%;
   -webkit-transform-style: preserve-3d;
 }
 #clients .owl-carousel .owl-item {
@@ -805,18 +805,18 @@ ul.social-icons li {
   min-height: 50px;
   right: 0;
   top: 0;
-  width: 50px;
+  max-width: 50px;
 }
 .fancybox-next span {
   background: url("../images/icons/right.png") no-repeat scroll center center #9BBABA;
-  height: 50px;
-  width: 50px;
+  max-height: 50px;
+  max-width: 50px;
   right: 0;
 }
 .fancybox-prev span {
   background: url("../images/icons/left.png") no-repeat scroll center center #9BBABA;
   min-height: 50px;
-  width: 50px;
+  max-width: 50px;
   left: 0;
 }
 .fancybox-title h3 {
@@ -869,7 +869,7 @@ ul.social-icons li {
   position: relative;
 }
 .team-member .team-img .team-pic {
-  width: 100%;
+  max-width: 100%;
 }
 .team-member .team_designation {
   font-size: 1.3rem;
@@ -971,7 +971,7 @@ article {
   background: transparent;
 }
 .sidebar .author .author-img img {
-  width: 90px;
+  max-width: 90px;
   border-radius: 100%;
   margin-top: -40px;
   border: 3px solid #fff;
