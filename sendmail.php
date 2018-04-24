@@ -8,8 +8,8 @@ include_once(__DIR__.'/phpmailer/phpmailer/class.phpmailer.php');
 	********************************************************************************************
 */
 // destinataire est votre adresse mail. Pour envoyer à plusieurs à la fois, séparez-les par une virgule
-// $destinataire = 'romane.donjon.iw@gmail.com';
-$destinataire = 'b.chemier@eobs.fr';
+ $destinataire = 'romane.donjon.iw@gmail.com';
+// $destinataire = 'b.chemier@eobs.fr';
 $replyTo = 'b.chemier@eobs.fr';
 
 
@@ -63,6 +63,7 @@ $nom     = (isset($_POST['nom']))     ? Rec($_POST['nom'])     : '';
 $email   = (isset($_POST['email']))   ? Rec($_POST['email'])   : '';
 $objet   = (isset($_POST['objet']))   ? Rec($_POST['objet'])   : '';
 $message = (isset($_POST['message'])) ? Rec($_POST['message']) : '';
+
 
 // On va vérifier les variables et l'email ...
 $email = (IsEmail($email)) ? $email : ''; // soit l'email est vide si erroné, soit il vaut l'email entré
