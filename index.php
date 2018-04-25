@@ -89,7 +89,7 @@
               <!-- logo -->
               <div class="navbar-brand">
                 <a href="index.php" >
-                  <img src="images/logo.png" alt="" class="logo">
+                  <img src="images/logo.png" alt="Logo Romane Donjon" class="logo">
                 </a>
               </div>
               <!-- /logo -->
@@ -165,7 +165,7 @@
                   </div>
                   <div class="col-md-6 col-sm-6">
                     <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
-                      <img src="images/about/portrait-rd.png" alt="">
+                      <img src="images/about/portrait-rd.png" alt="Romane Donjon - Autoportrait">
                     </div>
                   </div>
                 </div>
@@ -187,7 +187,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 realisations">
                   <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="600ms">
                     <div class="img-wrapper">
-                      <img src="images/portfolio/appli-expat.jpg" class="img-responsive" alt="" >
+                      <img src="images/portfolio/appli-expat.jpg" class="img-responsive" alt="Appli ExpatForYou" >
                       <div class="overlay">
                         <div class="buttons">
                           <a rel="gallery" class="fancybox" href="images/portfolio/appli-expat.jpg">Voir</a>
@@ -209,7 +209,7 @@
               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 realisations">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
                   <div class="img-wrapper">
-                    <img src="images/portfolio/axa.jpg" class="img-responsive" alt="this is a title" >
+                    <img src="images/portfolio/axa.jpg" class="img-responsive" alt="Axa coahesio" >
                     <div class="overlay">
                       <div class="buttons">
                         <a rel="gallery" class="fancybox" href="images/portfolio/axa.jpg">Voir</a>
@@ -229,7 +229,7 @@
               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 realisations">
                 <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
                   <div class="img-wrapper">
-                    <img src="images/portfolio/carte-etik.jpg" class="img-responsive" alt="this is a title" >
+                    <img src="images/portfolio/carte-etik.jpg" class="img-responsive" alt="Carte de visite Etik patrimoine" >
                     <div class="overlay">
                       <div class="buttons">
                         <a rel="gallery" class="fancybox" href="images/portfolio/carte-etik.jpg">Voir</a>
@@ -249,7 +249,7 @@
               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 realisations">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
                   <div class="img-wrapper">
-                    <img src="images/portfolio/logo-kine.jpg" class="img-responsive" alt="" >
+                    <img src="images/portfolio/logo-kine.jpg" class="img-responsive" alt="logo Kinespace" >
                     <div class="overlay">
                       <div class="buttons">
                         <a rel="gallery" class="fancybox" href="images/portfolio/logo-kine.jpg">Voir</a>
@@ -272,7 +272,7 @@
               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 realisations">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="900ms">
                   <div class="img-wrapper">
-                    <img src="images/portfolio/carte-massage.jpg" class="img-responsive" alt="" >
+                    <img src="images/portfolio/carte-massage.jpg" class="img-responsive" alt="Carte de visite - M. Massages et Ateliers" >
                     <div class="overlay">
                       <div class="buttons">
                         <a rel="gallery" class="fancybox" href="images/portfolio/carte-massage.jpg">Voir</a>
@@ -292,7 +292,7 @@
               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 realisations">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="1200ms">
                   <div class="img-wrapper">
-                    <img src="images/portfolio/jevendspourtoi.jpg" class="img-responsive" alt="" >
+                    <img src="images/portfolio/jevendspourtoi.jpg" class="img-responsive" alt="Je vends pour toi >
                     <div class="overlay">
                       <div class="buttons">
                         <a rel="gallery" class="fancybox" href="images/portfolio/jevendspourtoi.jpg">Voir</a>
