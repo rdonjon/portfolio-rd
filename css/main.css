@@ -7,7 +7,7 @@ body {
 
 .view-tenth {
 -webkit-user-select: none;
--webkit-touch-callout: none; 
+-webkit-touch-callout: none;
 }
 
 h1,
@@ -552,6 +552,12 @@ figure figcaption p {
 }
 #footer .copyright a {
   color: #9BBABA;
+}
+#footer a.mentions-legales {
+ font-size: 13px;
+ margin-bottom: 0;
+ margin-top: 10px;
+ color: #9BBABA;
 }
 #footer .social {
   text-align: right;
@@ -1130,7 +1136,7 @@ article {
 }
 
 .temoignages{
-  background:#f7f7f7; 
+  background:#f7f7f7;
   padding: 60px 0;
 }
 
