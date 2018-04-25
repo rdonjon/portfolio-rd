@@ -292,7 +292,7 @@
               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 realisations">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="1200ms">
                   <div class="img-wrapper">
-                    <img src="images/portfolio/jevendspourtoi.jpg" class="img-responsive" alt="Je vends pour toi >
+                    <img src="images/portfolio/jevendspourtoi.jpg" class="img-responsive" alt="Je vends pour toi" >
                     <div class="overlay">
                       <div class="buttons">
                         <a rel="gallery" class="fancybox" href="images/portfolio/jevendspourtoi.jpg">Voir</a>
